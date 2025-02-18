@@ -1,9 +1,9 @@
 import React from 'react'
 
-import slider1 from "../assets/drive-download-20250125T182520Z-001/Slider-2.jpeg"
-import slider3 from "../assets/drive-download-20250125T182520Z-001/Slider-image-2.jpeg"
-import slider2 from "../assets/drive-download-20250125T182520Z-001/Slider-image-1.jpeg"
-import slider4 from "../assets/drive-download-20250125T182520Z-001/Slider-image-3.jpeg"
+import slider1 from "../assets/drive-download-20250125T182520Z-001/slider-2.jpeg"
+import slider3 from "../assets/drive-download-20250125T182520Z-001/slider-image-2.jpeg"
+import slider2 from "../assets/drive-download-20250125T182520Z-001/slider-image-1.jpeg"
+import slider4 from "../assets/drive-download-20250125T182520Z-001/slider-image-3.jpeg"
 import Slider from 'react-slick'
 export default function Homeslider1() {
     const settings = {
