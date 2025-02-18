@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import axios  from "axios";
 // import Slide1 from "../assets/1680391434638-cover.jpeg"
 import { Link } from 'react-router-dom';
-import  { CartContext } from '../Contexts/cartContext';
+import  { CartContext } from '../Contexts/CartContext';
 import Homeslider from './Homeslider';
 import  * as yup  from "yup";
 import Homeslider1 from './Homeslider1';
