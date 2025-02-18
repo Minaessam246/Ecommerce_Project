@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import  axios  from "axios";
 import toast, { Toaster } from 'react-hot-toast';
 
-import { CartContext } from '../Contexts/cartContext';
+import { CartContext } from '../Contexts/CartContext';
 import { data, Link } from 'react-router-dom';
 import { Formik} from 'formik';
 

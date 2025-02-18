@@ -5,7 +5,7 @@ import { useFormik } from "formik";
 import { useContext } from "react";
 import  axios  from "axios";
 import * as yup from "yup"
-import { CartContext } from '../Contexts/cartContext';
+import { CartContext } from '../Contexts/CartContext';
 
 export default function Login() {
   let x=useNavigate();

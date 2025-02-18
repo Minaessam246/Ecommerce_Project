@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import toast, { Toaster } from 'react-hot-toast';
-import { CartContext } from '../Contexts/cartContext';
+import { CartContext } from '../Contexts/CartContext';
 import Slider from 'react-slick'
 
 export default function Product_details() {

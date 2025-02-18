@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import  axios  from "axios";
-import { CartContext } from '../Contexts/cartContext';
+import { CartContext } from '../Contexts/CartContext';
 import { Link, useNavigate } from 'react-router-dom';
 import { Formik} from 'formik';
 
