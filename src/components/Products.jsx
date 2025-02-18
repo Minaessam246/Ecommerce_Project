@@ -80,7 +80,7 @@ getproducts();
 
 }
       <div className='flex justify-center search items-center'>
-<h2 className={`text-3xl  font-bold   text-black capitalize ${filteredProducts.length==0?"":"hidden"}`}> no mathcing products
+<h2 className={`text-3xl  font-bold   text-black capitalize ${filteredProducts.length==0?"":"hidden"}`}> no matching products
 
 </h2>
 </div>
