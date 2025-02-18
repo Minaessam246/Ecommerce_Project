@@ -197,4 +197,10 @@ font-size: 25px;
 margin-bottom: 0;
   }
 }
+.search {
+  width: 100%;
+display: flex ;
+justify-items: center ;
+align-items: center ;
+}
 
