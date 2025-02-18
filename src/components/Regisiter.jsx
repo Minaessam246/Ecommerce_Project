@@ -11,8 +11,8 @@ export default function Regisiter() {
   const [errmessage, seterrmessage] = useState("")
   let valid=yup.object().shape({
     name:yup.string().min(3,"too short").max(12,"too long").required(),
-    email:yup.string().matches(/^.+@(gmail.com|yahoo.com)$/,"unvailed email(must contain @gmail.com/@hotmail.com")").required(),
-    password:yup.string().min(6,"too short password").matches(/^.*[a-z].*$/,"must contain characters").required(),
+    email:yup.string().matches(/^.+@(gmail.com|yahoo.com)$/,"invailed email (must contain @gmail.com/@hotmail.com)").required(),
+    password:yup.string().min(6,"password must be at least 6 ").matches(/^.*[a-z].*$/,"must contain characters").required(),
 rePassword:yup.string().oneOf([yup.ref("password")],"must be the same as password").required(),
     phone:yup.string().matches(/^01[0125].*$/).min(11,"must be 11 numbers").max(11,"must be 11 numbers").required()
 
