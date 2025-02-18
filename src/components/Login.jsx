@@ -12,7 +12,7 @@ export default function Login() {
  let{count,setcount}= useContext(CartContext)
   const [errmessage, seterrmessage] = useState("")
   let valid=yup.object().shape({
-    email:yup.string().matches(/^.+@(gmail.com|yahoo.com)$/).required(),
+    email:yup.string().matches(/^.+@(gmail.com|yahoo.com)$/,"invailed email (must contain @gmail.com/@hotmail.com)").required(),
     password:yup.string().min(6,"too short password").matches(/^.*[a-z].*$/,"must contain characters").required(),
 
 
